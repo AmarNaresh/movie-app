@@ -28,10 +28,10 @@ const MovieDetails = () => {
               <div className="movie-title">{data.Title}</div>
               <div className="movie-rating">
                   <span>
-                       IMDB Rating <i className="fa fa-star"></i>: {data.imdbIDRating}
+                       IMDB Rating <i className="fa fa-star"></i>: {data.imdbIDRating}7.9
                   </span>
                   <span>
-                       IMDB Votes <i className="fa fa-thumbs-up"></i>: {data.imdbIDVotes}
+                       IMDB Votes <i className="fa fa-thumbs-up"></i>: {data.imdbIDVotes}1.3m
                   </span>
                   <span> 
                       Runtime <i className="fa fa-film"></i>: {data.Runtime} 
